@@ -1,0 +1,69 @@
+@font-face {
+    font-family:'FuturaRegular';
+    src: url('../fonts/FuturaRegular.eot');
+    url('../fonts/FuturaRegular.woff') format('woff'),
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+font-family: 'FuturaRegular';
+src: url('../fonts/FuturaRegular.eot');
+src: url('../fonts/FuturaRegular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/FuturaRegular.woff') format('woff'),
+url('../fonts/FuturaRegular.ttf') format('truetype');
+/*url('fonts/buxtonsketch.svg#buxtonsketch') format('svg');*/
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.logo {
+    background-image:url("../picture/egor/logo.png");
+    height: 75px;
+    width: 255px;
+    margin: auto;
+}
+
+.head1 {
+    font-family: FuturaRegular;
+    font-size: 48px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 133px;
+}
+.head2 {
+    font-family:FuturaRegular;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.head3 {font-family:FuturaRegular;
+    font-size: 30px;
+
+}
+
+
+.btn-head {
+    height:54px;
+    width:302px;
+    background-color:#F8E600;
+    color: black;
+    border: none;
+    text-align: center;
+    margin: 40px auto;
+    display: block;
+}

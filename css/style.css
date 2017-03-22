@@ -81,3 +81,8 @@ a:hover {
     font-size: 12px;
     display: inline;
 }
+
+
+.container-770 {
+    max-width: 770px;
+}
