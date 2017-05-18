@@ -27,6 +27,9 @@ font-style: normal;
     max-width: 1000px;
     width: 100%;
     margin: auto;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: black;
 }
 
 .logo {
@@ -37,14 +40,14 @@ font-style: normal;
 }
 
 .head1 {
-    font-family: FuturaRegular;
+    font-family: Futura-Bold;
     font-size: 48px;
     line-height: 40px;
     text-align: center;
     margin-top: 133px;
 }
 .head2 {
-    font-family:FuturaRegular;
+    font-family:FuturaBookC;
     font-size: 32px;
     line-height: 40px;
     text-align: center;
@@ -57,7 +60,41 @@ font-style: normal;
 }
 
 
+
+.head4 {font-family:FuturaDemiCTT;
+    font-size: 48px;
+    line-height: 43px;
+    margin-top: 81px;
+    margin-bottom: 39px;
+    color: black;
+
+}
+
+
+.text1 {font-family:"Futura New";
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.text2 {font-family:"Futura New";
+    font-size: 30px;
+    line-height: 36px;
+    width: 480px;
+}
+
+
+
+.afterbottomtext {
+    font-family:"Futura New";
+    font-size: 12px;
+    margin-top: 18px;
+    margin-bottom: 33px;
+}
+
+
 .btn-head {
+    font-family:"Futura New";
+    font-size: 18px;
     height:54px;
     width:302px;
     background-color:#F8E600;
@@ -66,4 +103,89 @@ font-style: normal;
     text-align: center;
     margin: 40px auto;
     display: block;
+}
+.btn-footer {
+    height:54px;
+    width:302px;
+    background-color:black;
+    color: white;
+    border: none;
+    text-align: center;
+    margin-top: 40px;
+    display: block;
+}
+
+.blue {
+    background-color: #008FBB;
+    width: 330px;
+    height: 80px;
+    margin-left: 290px;
+    margin-top: 370px;
+    position: absolute;
+}
+
+
+.yellow {
+    background-color: #F8E600;
+    width: 203px;
+    height: 83px;
+    position: absolute;
+
+}
+
+.red {
+    background-color: #E41E23;
+    width: 209px;
+    height: 83px;
+    position: absolute;
+    top:-59px;
+}
+
+.black {
+    background-color: black;
+    width: 209px;
+    height: 83px;
+    position: absolute;
+    bottom: -42px;
+}
+
+.foto1 {
+    background: url(../picture/egor/maly-prosp.png);
+    height:417px;
+    width: 620px;
+
+}
+.foto2 {
+    margin-top: 58px;
+    background: url(../picture/egor/естный.png);
+    height:326px;
+    width: 485px;
+    margin-left: 132px;
+
+}
+.foto3 {
+
+    background: url(../picture/egor/парикмахерская.png);
+    height:169px;
+    width: 300px;
+    position: relative;
+    margin-top: 59px;
+    margin-left: 20px;
+
+}
+
+.foto4 {
+
+    background: url(../picture/egor/цветы.png);
+    height:433px;
+    width: 300px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.photogalery1{
+    display: flex;
+    flex-direction: column;
 }
