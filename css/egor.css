@@ -1,3 +1,4 @@
+/*
 @font-face {
     font-family:'FuturaRegular';
     src: url('../fonts/FuturaRegular.eot');
@@ -14,11 +15,11 @@ src: url('../fonts/FuturaRegular.eot');
 src: url('../fonts/FuturaRegular.eot?#iefix') format('embedded-opentype'),
 url('../fonts/FuturaRegular.woff') format('woff'),
 url('../fonts/FuturaRegular.ttf') format('truetype');
-/*url('fonts/buxtonsketch.svg#buxtonsketch') format('svg');*/
+url('fonts/buxtonsketch.svg#buxtonsketch') format('svg');
 font-weight: normal;
 font-style: normal;
 }
-
+*/
 
 
 
@@ -40,21 +41,21 @@ font-style: normal;
 }
 
 .head1 {
-    font-family: Futura-Bold;
+    font-family: 'Futura-Bold';
     font-size: 48px;
     line-height: 40px;
     text-align: center;
     margin-top: 133px;
 }
 .head2 {
-    font-family:FuturaBookC;
+    font-family:"Futura New";
     font-size: 32px;
     line-height: 40px;
     text-align: center;
 
 }
 
-.head3 {font-family:FuturaRegular;
+.head3 {font-family: 'Futura-Bold';
     font-size: 30px;
 
 }
@@ -104,6 +105,13 @@ font-style: normal;
     margin: 40px auto;
     display: block;
 }
+
+.btn-head:hover {
+    background-color: #E41E23;
+
+}
+
+
 .btn-footer {
     height:54px;
     width:302px;
@@ -115,6 +123,11 @@ font-style: normal;
     display: block;
 }
 
+.btn-footer:hover {
+    background-color: #E41E23;
+
+}
+
 .blue {
     background-color: #008FBB;
     width: 330px;
@@ -122,6 +135,8 @@ font-style: normal;
     margin-left: 290px;
     margin-top: 370px;
     position: absolute;
+    display: flex;
+    padding: 8px 8px 14px 10px;
 }
 
 
@@ -130,6 +145,7 @@ font-style: normal;
     width: 203px;
     height: 83px;
     position: absolute;
+    display: flex;
 
 }
 
@@ -139,6 +155,7 @@ font-style: normal;
     height: 83px;
     position: absolute;
     top:-59px;
+    display: flex;
 }
 
 .black {
@@ -147,6 +164,7 @@ font-style: normal;
     height: 83px;
     position: absolute;
     bottom: -42px;
+    display: flex;
 }
 
 .foto1 {
@@ -189,3 +207,40 @@ font-style: normal;
     display: flex;
     flex-direction: column;
 }
+
+
+
+.photogalery-text {
+    margin: auto;
+
+    font-family: FuturaNewBook-Reg;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.GermanovichEgorphoto {
+    background: url(../picture/egor/GermanovichEgor.png) no-repeat;
+    width: 489px;
+    height: 366px;
+    bottom: -14px;
+    margin-left: 200px;
+    position: absolute;
+
+}
+
+.col-50 {
+    width: 50%;
+    position: relative;
+}
+
+.precontainer-form-photo {
+    display: flex;
+}
+
+.GermanovichEgorphoto-text {
+position: absolute;
+width: 209px;
+bottom: 110px;
+left: 80px;}
