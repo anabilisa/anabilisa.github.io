@@ -41,28 +41,30 @@ font-style: normal;
 }
 
 .head1 {
-    font-family: 'Futura-Bold';
+    font-family: FuturaNewBold;
     font-size: 48px;
     line-height: 40px;
     text-align: center;
     margin-top: 133px;
 }
 .head2 {
-    font-family:"Futura New";
+    font-family: FuturaNewBook, sans-serif;
     font-size: 32px;
     line-height: 40px;
     text-align: center;
 
 }
 
-.head3 {font-family: 'Futura-Bold';
+.head3 {
+    font-family: FuturaNewBold, sans-serif;
     font-size: 30px;
 
 }
 
 
 
-.head4 {font-family:FuturaDemiCTT;
+.head4 {
+    font-family: FuturaNewBook, sans-serif;
     font-size: 48px;
     line-height: 43px;
     margin-top: 81px;
@@ -72,12 +74,18 @@ font-style: normal;
 }
 
 
-.text1 {font-family:"Futura New";
+.text1 {
+    font-family: FuturaNewBook, sans-serif;
     font-size: 24px;
     line-height: 29px;
 }
 
-.text2 {font-family:"Futura New";
+.text1b {
+    font-family: FuturaNewBold, sans-serif;
+}
+
+.text2 {
+    font-family: FuturaNewBook, sans-serif;
     font-size: 30px;
     line-height: 36px;
     width: 480px;
@@ -86,7 +94,7 @@ font-style: normal;
 
 
 .afterbottomtext {
-    font-family:"Futura New";
+    font-family: FuturaNewBook, sans-serif;
     font-size: 12px;
     margin-top: 18px;
     margin-bottom: 33px;
@@ -94,7 +102,7 @@ font-style: normal;
 
 
 .btn-head {
-    font-family:"Futura New";
+    font-family: FuturaNewBook, sans-serif;
     font-size: 18px;
     height:54px;
     width:302px;
@@ -113,6 +121,7 @@ font-style: normal;
 
 
 .btn-footer {
+    font-family: FuturaNewBook, sans-serif;
     height:54px;
     width:302px;
     background-color:black;
@@ -131,40 +140,44 @@ font-style: normal;
 .blue {
     background-color: #008FBB;
     width: 330px;
-    height: 80px;
+    height: 65px;
     margin-left: 290px;
     margin-top: 370px;
     position: absolute;
     display: flex;
-    padding: 8px 8px 14px 10px;
+    padding: 10px 5px 15px 10px;
 }
 
 
 .yellow {
     background-color: #F8E600;
     width: 203px;
-    height: 83px;
+    height: 125px;
     position: absolute;
     display: flex;
+    left: 204px;
+    padding: 10px 10px 15px 10px;
 
 }
 
 .red {
     background-color: #E41E23;
     width: 209px;
-    height: 83px;
+    height: 105px;
     position: absolute;
-    top:-59px;
+    top:-82px;
     display: flex;
+    padding: 10px 10px 15px 10px;
 }
 
 .black {
     background-color: black;
-    width: 209px;
-    height: 83px;
+    width: 203px;
+    height: 85px;
     position: absolute;
     bottom: -42px;
     display: flex;
+    padding: 10px 10px 15px 10px;
 }
 
 .foto1 {
@@ -175,7 +188,7 @@ font-style: normal;
 }
 .foto2 {
     margin-top: 58px;
-    background: url(../picture/egor/естный.png);
+    background: url(../picture/egor/estnui.png);
     height:326px;
     width: 485px;
     margin-left: 132px;
@@ -183,18 +196,18 @@ font-style: normal;
 }
 .foto3 {
 
-    background: url(../picture/egor/парикмахерская.png);
+    background: url(../picture/egor/paricmaherskaya.png);
     height:169px;
     width: 300px;
     position: relative;
-    margin-top: 59px;
+    margin-top: 82px;
     margin-left: 20px;
 
 }
 
 .foto4 {
 
-    background: url(../picture/egor/цветы.png);
+    background: url(../picture/egor/tsvetu.png);
     height:433px;
     width: 300px;
     position: relative;
@@ -213,7 +226,7 @@ font-style: normal;
 .photogalery-text {
     margin: auto;
 
-    font-family: FuturaNewBook-Reg;
+    font-family: FuturaNewBook, sans-serif;
     font-size: 20px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -240,6 +253,7 @@ font-style: normal;
 }
 
 .GermanovichEgorphoto-text {
+    font-family: FuturaNewBook, sans-serif;
 position: absolute;
 width: 209px;
 bottom: 110px;
