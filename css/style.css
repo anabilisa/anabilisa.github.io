@@ -1,7 +1,68 @@
+body {
+    background-color: #f2f2f2
+}
+
+.main-container {
+    max-width: 1380px;
+
+    margin: 0 4% 0;
+}
+
+
+.main_chapter h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    letter-spacing: -0.4px;
+    font-weight: 900;
+    color: black;
+    margin-top: -9px;
+    margin-left: -2px;
+
+}
+
+
+.main_chapter h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+   color: #333;
+
+}
+
+
+
+.portfolio-chapter {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: .0625rem solid rgba(0,0,0,.15);
+}
+
+.portfolio-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333;
+    margin-top: 10px;
+}
+
+a{
+    color: #FD005E;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 
 .main-about {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 40px;
     padding: 20px;
     border-radius: 10px;
 }
@@ -17,13 +78,28 @@
     /*text-align: center;*/
 }
 
-.portfolio-chapter {
-    /*padding: 20px 15px;*/
-    font-size: 16px;
-    padding-top: 14px;
-    /*font-weight: bold;*/
 
+
+
+
+
+
+
+
+
+.portfolio-image {
+    margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+
 
 div {
     /*background-color: rgba(255,0,0,0.1);*/
@@ -35,15 +111,13 @@ div {
     line-height: 1.5;
 }
 
-a {
-    color: #0475FC;
-    text-decoration: none;
-    border-bottom: 1px solid;
-    cursor: pointer;
-}
-a:hover {
-    text-decoration: none;
-}
+/*a {*/
+    /*color: #0475FC;*/
+    /*text-decoration: none;*/
+    /*border-bottom: 1px solid;*/
+    /*cursor: pointer;*/
+/*}*/
+
 
 .portfolio {
     margin-top: 20px;
