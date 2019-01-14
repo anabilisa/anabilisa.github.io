@@ -4,8 +4,12 @@ body {
 
 .main-container {
     max-width: 1380px;
+    padding-left: 2%;
+    padding-right: 2%;
+    /*margin: 0 4% 0;*/
+    margin: auto;
 
-    margin: 0 4% 0;
+
 }
 
 
